@@ -17,3 +17,11 @@ it is the most common data structure, including rows' and columns' names.
 
 **factor**: nominal and ordered nonminal variables are called factors. For nominal variables: diabetes <- factor(diabetes); for ordered nonminal variables: status <- factor(status, oreder = TRUE). Then those vairables will be mapped to different levels.
 ### 5. list
+g <- "My First List"
+
+h <- c(25,26,19,24)
+
+mylist <- list(title=g, ages=h, j, k)
+
+
+List is biggest data structure in R. It can contain all datastructures listed above.

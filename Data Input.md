@@ -1,6 +1,6 @@
-#R learning
+# R learning
 ## Data Input
-###1. From keyboard
+### 1. From keyboard
 mydata <- data.frame(age = numeric(0), gender = character(0), weight=numeric(0))
 
 mydata <- edit(mydata)
@@ -12,9 +12,9 @@ mydata <- edit(mydata)
 
 *It can make difference between variables in functions. ep: A <- list(title = mylist, ...)*
 
-##2. From text file
+## 2. From text file
 mydata <- read.table(file, header = logical_value, sep = "\t", row.names = "name")
 
 header can indicate whether the first row is variable names. row.names is an optional parameter to represent row indentifiers.
 
-##3. From Excel file
+## 3. From Excel file
